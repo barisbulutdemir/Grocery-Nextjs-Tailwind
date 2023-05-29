@@ -3,7 +3,8 @@ import { Inter } from 'next/font/google'
 import Header from "@/companents/Header";
 import Banner from "@/companents/Banner";
 import Recommended from "@/companents/Recommended";
-import { recommendedItems } from "@/data"
+import {popularitems, recommendedItems} from "@/data"
+import Popular from "@/companents/Popular";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,8 @@ export default function Home() {
           <Header />
           <Banner />
           <Recommended  recommendedItems={recommendedItems}/>
+          <Popular popularitems={popularitems}/>
+
           </div>
 
 

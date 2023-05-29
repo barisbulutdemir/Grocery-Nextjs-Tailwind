@@ -11,7 +11,7 @@ export default function Header(){
         <>
             <div className="bg-app-blue space-y-14  ">
                <div className="flex justify-between px-10 pt-10">
-                  <h1 className="text-2xl text-white ">Hey, Baris</h1>
+                  <h1 className="text-2xl text-white ">Hey, Seloş</h1>
                     <div className="flex ">
                          <div className="relative ">
                             <ShoppingBagIcon className="w-10 h-auto "/>

@@ -7,7 +7,7 @@ export default function Banner(){
 
             {/* First Card */}
 
-            <div className="relative items-center  flex space-x-3 overflow-x-scroll  scroll-smooth  ">
+            <div className="relative items-center  flex space-x-3 overflow-x-scroll  scroll-smooth scroll-hidden ">
                 <div className="flex flex-shrink-0">
 
                 <div id="reklam" className=" my-10 mx-5 w-9/12 rounded-3xl overflow-hidden  block ">

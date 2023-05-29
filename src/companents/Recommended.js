@@ -10,12 +10,12 @@ export default function Recommended({ recommendedItems : { title ,items} }) {
                  <h1 className="text-3xl grow ">{title}</h1>
                 </div>
 
-                <div className="grid grid-cols-3 items-center justify-center  gap-5">
+                <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 items-center justify-center  gap-5">
                     {
                         items.map((val,i) => (
                             <div key={val.id} className="flex flex-col items-center justify-center bg-slate-50  rounded-3xl py-4 ">
                                 <div className="border-b-2 border-b-slate-200 pb-1 ">
-                                     <Image src={val.img} width={100} height={100} alt="img/fruit" className="h-24 w-24" />
+                                     <Image src={val.img} width={100} height={100} alt="img/fruit" className="h-20 w-24" />
                                 </div>
                                 <div>
                                     <h4 className="text-xl ">{val.title}</h4>
@@ -23,7 +23,7 @@ export default function Recommended({ recommendedItems : { title ,items} }) {
                                 </div>
                                 <div className="flex space-x-2 border-b-2 pb-1">
                                     <p className="text-md text-slate-600 font-light">Unit <span className="font-bold">${val.price}</span></p>
-                                    <div className=" bg-yellow-500 w-6 text-white rounded-full "><PlusIcon /></div>
+                                    <div className=" bg-yellow-500 w-6 text-white rounded-full cursor-pointer"><PlusIcon /></div>
                                 </div>
 
 
@@ -32,6 +32,8 @@ export default function Recommended({ recommendedItems : { title ,items} }) {
                         ))
                     }
                 </div>
+
+
 
 
             </div>
