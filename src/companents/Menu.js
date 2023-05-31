@@ -11,12 +11,12 @@ export default function Menu(){
     const {asPath:pathname} = router;
     return (
         <>
-            <div className=" sticky bottom-0 z-10  h-[10vh] bg-slate-400 px-16 rounded-t-3xl ">
+            <div className=" sticky bottom-5 z-10  h-[8vh] bg-slate-400 px-16 rounded-3xl ">
                  <div className=" flex  justify-between  items-center pt-3">
                      <Link className={pathname === '/' ? activeMenu : passiveMenu} href="/">
                          <HomeIcon className="menuicons " />
                      </Link>
-                     <Link className={pathname === '/category' ? activeMenu : passiveMenu} href="/category">
+                     <Link className={pathname === '/productlist' ? activeMenu : passiveMenu} href="/productlist">
                          <Bars4Icon className="menuicons" />
                      </Link>
                      <Link className={pathname === '/favorite' ? activeMenu : passiveMenu} href="/favorite">
@@ -25,16 +25,6 @@ export default function Menu(){
                      <Link className={pathname === '/profile' ? activeMenu : passiveMenu} href="/profile">
                          <EllipsisVerticalIcon className="menuicons" />
                      </Link>
-
-
-
-
-
-
-
-
-
-
 
                  </div>
             </div>

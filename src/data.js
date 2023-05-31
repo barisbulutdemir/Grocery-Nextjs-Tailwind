@@ -4,6 +4,19 @@ import patato from './assets/patato.png';
 import greentea from './assets/greentea.png';
 import cucumber from './assets/cucumber.png';
 import onion from './assets/onion.png';
+import huaweifreelance from './assets/huaweifreelance.png';
+import lightningcable from './assets/lightning-cable.png';
+import phoneholder from './assets/phone-holder.png';
+import powerbank from './assets/powerbank.png';
+import screenprotecter from './assets/screen-protecter.png';
+import tteccharger from './assets/ttec-charger.png';
+import typeccable from './assets/typec-cable.png';
+
+
+
+
+
+
 
 
 
@@ -14,7 +27,7 @@ export const recommendedItems = {
         {
             id:"1",
             title:"Lemon",
-            category:"Fruit",
+            category:"organic",
             description:"Lorem Ipsum is simply dummy text of the printing and",
             price:"1,2",
             img:lemon,
@@ -23,7 +36,7 @@ export const recommendedItems = {
         {
             id:"2",
             title:"Watermelon",
-            category:"Fruit",
+            category:"electronic",
             description:"Lorem Ipsum is simply dummy text of the printing and",
             price:"1,2",
             img:watermelon,
@@ -32,7 +45,7 @@ export const recommendedItems = {
         {
             id:"3",
             title:"Green Tea",
-            category:"Tea",
+            category:"house",
             description:"Lorem Ipsum is simply dummy text of the printing and",
             price:"1,2",
             img:greentea,
@@ -134,7 +147,7 @@ export const products = [
     {
         id:"1",
         title:"Lemon",
-        category:"Fruit",
+        category:"electronic",
         description:"Lorem Ipsum is simply dummy text of the printing and",
         price:"1,2",
         img:lemon,
@@ -143,7 +156,7 @@ export const products = [
     {
         id:"2",
         title:"Watermelon",
-        category:"Fruit",
+        category:"food",
         description:"Lorem Ipsum is simply dummy text of the printing and",
         price:"1,2",
         img:watermelon,
@@ -152,7 +165,7 @@ export const products = [
     {
         id:"3",
         title:"Green Tea",
-        category:"Tea",
+        category:"food",
         description:"Lorem Ipsum is simply dummy text of the printing and",
         price:"1,2",
         img:greentea,
@@ -161,7 +174,7 @@ export const products = [
     {
         id:"4",
         title:"Cucumber",
-        category:"Fruit",
+        category:"organic",
         description:"Lorem Ipsum is simply dummy text of the printing and",
         price:"1,2",
         img:cucumber,
@@ -179,10 +192,73 @@ export const products = [
     {
         id:"6",
         title:"Patato",
-        category:"Fruit",
+        category:"house",
         description:"Lorem Ipsum is simply dummy text of the printing and",
         price:"1,2",
         img:patato,
+
+    },
+    {
+        id:"7",
+        title:"Huawei Freelance",
+        category:"electronic",
+        description:"Lorem Ipsum is simply dummy text of the printing and",
+        price:"100",
+        img:huaweifreelance,
+
+    },
+    {
+        id:"8",
+        title:"Lightning Cable",
+        category:"food",
+        description:"Lorem Ipsum is simply dummy text of the printing and",
+        price:"1,2",
+        img:lightningcable,
+
+    },
+    {
+        id:"9",
+        title:"phone-holder",
+        category:"electronic",
+        description:"Lorem Ipsum is simply dummy text of the printing and",
+        price:"32",
+        img:phoneholder,
+
+    },
+    {
+        id:"10",
+        title:"10.000 mah Powerbank",
+        category:"electronic",
+        description:"Lorem Ipsum is simply dummy text of the printing and",
+        price:"55",
+        img:powerbank,
+
+    },
+    {
+        id:"11",
+        title:"8D Screen Protecter",
+        category:"electronic",
+        description:"Lorem Ipsum is simply dummy text of the printing and",
+        price:"12",
+        img:screenprotecter,
+
+    },
+    {
+        id:"12",
+        title:"Ttec Charger + Lightning Cable ",
+        category:"electronic",
+        description:"Lorem Ipsum is simply dummy text of the printing and",
+        price:"132",
+        img:tteccharger,
+
+    },
+    {
+        id:"13",
+        title:"Ttec Lightning Cable",
+        category:"electronic",
+        description:"Lorem Ipsum is simply dummy text of the printing and",
+        price:"45",
+        img:typeccable,
 
     },
 ]
