@@ -5,6 +5,7 @@ import Banner from "@/companents/Banner";
 import Recommended from "@/companents/Recommended";
 import {popularitems, recommendedItems} from "@/data"
 import Popular from "@/companents/Popular";
+import Menu from "@/companents/Menu";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function Home() {
           <Banner />
           <Recommended  recommendedItems={recommendedItems}/>
           <Popular popularitems={popularitems}/>
+          <Menu />
 
           </div>
 

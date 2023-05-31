@@ -9,7 +9,7 @@ import {
 export default function Header(){
     return(
         <>
-            <div className="bg-app-blue space-y-14  ">
+            <div className="bg-app-blue space-y-14 rounded-b-2xl shadow-md shadow-slate-500 ">
                <div className="flex justify-between px-10 pt-10">
                   <h1 className="text-2xl text-white ">Hey, Seloş</h1>
                     <div className="flex ">

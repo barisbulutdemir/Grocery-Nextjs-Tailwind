@@ -11,5 +11,36 @@
     padding: 0;
     font-family: 'Manrope', sans-serif;
   }
+
 }
+
+.menuicons{
+  @apply h-12 w-auto  ;
+}
+
+.menuicons:hover{
+  @apply text-white scale-95;
+}
+
+
+.category-link {
+  @apply  text-slate-200 text-xl border px-4 py-2 rounded bg-yellow-500   ;
+}
+
+.category-link:hover{
+  @apply bg-yellow-800 text-slate-300 ;
+}
+
+.category-div {
+  @apply  inline-block    ;
+}
+
+.product-category{
+  @apply text-slate-900 bg-slate-100 border rounded-xl  w-1/4 h-10
+}
+
+.product-category:hover{
+  @apply text-slate-50 bg-yellow-500 transition-all duration-300
+}
+
 
