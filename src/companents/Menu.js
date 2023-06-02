@@ -12,7 +12,7 @@ export default function Menu(){
     return (
         <>
             <div className=" sticky bottom-5 z-10  h-[8vh] bg-slate-400 px-16 rounded-3xl ">
-                 <div className=" flex  justify-between  items-center pt-5">
+                 <div className=" flex  justify-between  items-center pt-3">
 
                      <Link className={pathname === '/' ? activeMenu : passiveMenu} href="/">
                          <HomeIcon className="menuicons " />

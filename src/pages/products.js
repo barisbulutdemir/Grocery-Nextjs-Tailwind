@@ -10,8 +10,8 @@ import {addToCart, removeFromCart} from "@/redux/cartSlice";
 export default function Products( {filteredProducts}) {
 
     const onAddToCart = (product) => {
+        console.log(product); // bu satırı ekleyin
         dispatch(addToCart(product));
-        console.log(dispatch);
 
     };
 
@@ -35,9 +35,10 @@ export default function Products( {filteredProducts}) {
                             <p className="text-md text-slate-600 font-light">
                                 Unit <span className="font-bold">${product.price}</span>
                             </p>
-                            <button className="bg-yellow-500 w-6 text-white rounded-full cursor-pointer" onClick={()=> {onAddToCart(); }}>
-                                Ekle
+                            <button className="bg-yellow-500 w-6 text-white rounded-full cursor-pointer" onClick={()=> {onAddToCart(product); }}>
+                                <PlusIcon/>
                             </button>
+
                         </div>
                     </div>
                 ))}

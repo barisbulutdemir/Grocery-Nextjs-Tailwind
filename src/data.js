@@ -29,7 +29,7 @@ export const recommendedItems = {
             title:"Lemon",
             category:"organic",
             description:"Lorem Ipsum is simply dummy text of the printing and",
-            price:"1,2",
+            price:1.2,
             img:lemon,
 
         },
@@ -38,7 +38,7 @@ export const recommendedItems = {
             title:"Watermelon",
             category:"electronic",
             description:"Lorem Ipsum is simply dummy text of the printing and",
-            price:"1,2",
+            price:"1.2",
             img:watermelon,
 
         },
@@ -149,7 +149,7 @@ export const products = [
         title:"Lemon",
         category:"electronic",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"1,2",
+        price:23,
         img:lemon,
 
     },
@@ -158,7 +158,7 @@ export const products = [
         title:"Watermelon",
         category:"food",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"1,2",
+        price:15,
         img:watermelon,
 
     },
@@ -167,7 +167,7 @@ export const products = [
         title:"Green Tea",
         category:"food",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"1,2",
+        price:13,
         img:greentea,
 
     },
@@ -176,7 +176,7 @@ export const products = [
         title:"Cucumber",
         category:"organic",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"1,2",
+        price:12,
         img:cucumber,
 
     },
@@ -185,7 +185,7 @@ export const products = [
         title:"Onion",
         category:"Fruit",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"1,2",
+        price:1.2,
         img:onion,
 
     },
@@ -194,7 +194,7 @@ export const products = [
         title:"Patato",
         category:"house",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"1,2",
+        price:1.2,
         img:patato,
 
     },
@@ -203,7 +203,7 @@ export const products = [
         title:"Huawei Freelance",
         category:"electronic",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"100",
+        price:100,
         img:huaweifreelance,
 
     },
@@ -212,7 +212,7 @@ export const products = [
         title:"Lightning Cable",
         category:"food",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"1,2",
+        price:1.2,
         img:lightningcable,
 
     },
@@ -221,7 +221,7 @@ export const products = [
         title:"phone-holder",
         category:"electronic",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"32",
+        price:32,
         img:phoneholder,
 
     },
@@ -230,7 +230,7 @@ export const products = [
         title:"10.000 mah Powerbank",
         category:"electronic",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"55",
+        price:55,
         img:powerbank,
 
     },
@@ -239,7 +239,7 @@ export const products = [
         title:"8D Screen Protecter",
         category:"electronic",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"12",
+        price:12,
         img:screenprotecter,
 
     },
@@ -248,7 +248,7 @@ export const products = [
         title:"Ttec Charger + Lightning Cable ",
         category:"electronic",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"132",
+        price:132,
         img:tteccharger,
 
     },
@@ -257,7 +257,7 @@ export const products = [
         title:"Ttec Lightning Cable",
         category:"electronic",
         description:"Lorem Ipsum is simply dummy text of the printing and",
-        price:"45",
+        price:45,
         img:typeccable,
 
     },

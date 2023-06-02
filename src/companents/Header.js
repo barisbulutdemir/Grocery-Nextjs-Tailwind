@@ -7,6 +7,7 @@ import {
 import CartView from "@/companents/CartView";
 import { useSelector } from "react-redux";
 import { selectItems} from "@/redux/cartSlice";
+import Search from "@/companents/Search";
 
 export default function Header() {
 
@@ -56,14 +57,7 @@ export default function Header() {
 
                 {/* Search Start */}
 
-                <div className="flex justify-center rounded-full w-[90%] mx-auto py-5 text-md bg-blue-950 gap-3 ">
-                    <MagnifyingGlassIcon className="text-white w-6 " />
-                    <input
-                        type="text"
-                        className="w-[80%] bg-blue-950 outline-none text-white"
-                        placeholder="Search Products or store"
-                    />
-                </div>
+               <Search />
 
                 {/* Search end  */}
 
@@ -93,7 +87,7 @@ export default function Header() {
                 {/* address end */}
 
                 {isCartOpen && (
-                    <div ref={cartViewRef} className="absolute right-20 top-6 transform transition-all duration-300">
+                    <div ref={cartViewRef} className="absolute right-20 top-6 z-50">
                         <CartView />
                     </div>
                 )}
