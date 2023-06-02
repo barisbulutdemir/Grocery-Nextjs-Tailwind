@@ -15,7 +15,7 @@
 }
 
 .menuicons{
-  @apply h-12 w-auto  ;
+  @apply h-8 w-auto   ;
 }
 
 .menuicons:hover{
@@ -41,6 +41,10 @@
 
 .product-category:hover{
   @apply text-slate-50 bg-yellow-500 transition-all duration-300
+}
+
+.checktext{
+  @apply flex justify-between w-[70%] mx-auto;
 }
 
 
