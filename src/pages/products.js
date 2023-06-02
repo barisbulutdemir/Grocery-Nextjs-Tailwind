@@ -39,7 +39,7 @@ export default function Products({ filteredProducts }) {
                             </p>
                             <div
                                 className="bg-yellow-500 w-6 text-white rounded-full cursor-pointer"
-                                onClick={() => handleAddToCart(product)}
+                                onClick={handleAddToCart}
                             >
                                 <PlusIcon />
                             </div>
